@@ -1,0 +1,49 @@
+{
+  "result": {
+    "blocks": [
+      {
+        "type": "header",
+        "text": {
+          "type": "plain_text",
+          "text": "今日放映 :movie_camera: ",
+          "emoji": true
+        }
+      },
+      {
+        "type": "divider"
+      }
+    ]
+  },
+  "card": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ""
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "",
+        "alt_text": ""
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: 誠品電影院"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    }
+  ]
+}

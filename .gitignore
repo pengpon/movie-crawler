@@ -1,1 +1,8 @@
 node_modules
+build
+
+## FireStore
+*serviceAccountKey.json
+
+## Config
+*config.js
